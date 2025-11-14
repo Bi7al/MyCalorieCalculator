@@ -20,7 +20,7 @@ function countCalories(age:number,height:number,weight:number,gender:string,acti
     BMR = 0
   }
 
-  setCalories((prev)=>prev=Math.round(BMR))
+  setCalories(Math.round(BMR))
 
   
 

@@ -41,9 +41,9 @@ function Calculator({calorieCounter}:Props) {
         <label className="w-9/10 text-lg font-bold" htmlFor="age">Age
         <input type="number" className="w-full h-16 bg-white rounded-md text-black text-base ps-2" name="age"  id="age"    placeholder="Enter Your Age" /></label>
         <label className="w-9/10 text-lg font-bold" htmlFor="weight">Weight
-        <input type="number" className="w-full h-16 bg-white rounded-md text-black text-base ps-2" name="weight"  id="weight" placeholder="Enter your Weight" /></label>
+        <input type="number" className="w-full h-16 bg-white rounded-md text-black text-base ps-2" name="weight"  id="weight" placeholder="Enter your Weight (Kgs)" /></label>
         <label className="w-9/10 text-lg font-bold" htmlFor="height">Height
-        <input type="number" className="w-full h-16 bg-white rounded-md text-black text-base ps-2" name="height"  id="height" placeholder="Enter Your Height"/></label>
+        <input type="number" className="w-full h-16 bg-white rounded-md text-black text-base ps-2" name="height"  id="height" placeholder="Enter Your Height (cm)"/></label>
         
         <label className="w-9/10 text-lg font-bold" htmlFor="activity_lvl">Activity Level
         <select name="activity_level" className="w-full h-16 rounded-md bg-white text-black" id="activity_lvl">
